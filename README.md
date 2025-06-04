@@ -1,4 +1,4 @@
-# 🧠 NLP & LLMs Notebook
+# 🧠 Lexo - LLM toolkit for RAG, tuning, agents, and more
 
 ## 📝 Overview
 **Lexo** is a collection of notebooks for learning and applying LLMs using real-world AI tasks—RAG, QLoRA fine-tuning, agents, multimodal input, and ML benchmarks.
