@@ -1,0 +1,61 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Package/build artifacts
+build/
+dist/
+bin/
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# Environment & config
+.env
+.env.*        # For multiple env files like .env.dev
+*.env         # In case someone uses `dev.env` style
+!.env.example
+.gitattributes
+
+# VSCode and other IDE settings
+.vscode/
+.idea/
+*.sublime*
+
+# Pytest and test caches
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+coverage.xml
+nosetests.xml
+test-results.xml
+
+# MyPy / Ruff / Linting
+.mypy_cache/
+ruff_cache/
+.dmypy.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Vector_db folder
+vector_db/
+
+# Dataset files
+*.pkl
+*.jsonl
