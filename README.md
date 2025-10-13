@@ -2,42 +2,15 @@
 
 **Lexo** is a comprehensive collection of Jupyter notebooks designed for learning and applying Large Language Models (LLMs) in real-world scenarios. Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.
 
+🌐 **Visit our website**: [https://lexo.lisekarimi.com](https://lexo.lisekarimi.com)
+
 ## 🛠️ Prerequisites & Installation
 
-### Why Use Docker?
-Ever cloned a repo and got errors like "Python version wrong" or "library not found"? 😤
-
-Docker fixes this by:
-- **Consistent environment**: Everyone runs the exact same Python + libraries
-- **No conflicts**: No more "pip install failed" or dependency issues
-- **Works everywhere**: If it works on one computer, it works on ALL computers
-
-### Install Docker
-
-**Windows & macOS:**
-1. Download [Docker Desktop](https://www.docker.com/products/docker-desktop)
-2. Run the installer and start Docker Desktop
-3. Test: `docker --version && docker run hello-world`
-
-**Linux (Ubuntu/Debian):**
-```bash
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-sudo usermod -aG docker $USER  # Optional: run Docker without sudo
-# Log out and log back in
-```
-
-### Install Make (Optional but Recommended)
-
-**Why Use Make?**
-Instead of typing long Docker commands, use simple shortcuts:
-- `make build` instead of `docker build -t lexo .`
-- `make run` instead of `docker run --rm -it -p 8888:8888 -v .:/app -w /app lexo`
-
-**Installation:**
-- **Windows:** `winget install GnuWin32.Make`
-- **macOS:** `brew install make`
-- **Linux:** `sudo apt install make`
+- Python 3.11.x (not 3.12+)
+- [uv package manager](https://docs.astral.sh/uv/getting-started/installation/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- WSL (Windows Subsystem for Linux)
+- Make: `winget install GnuWin32.Make` (Windows) | `brew install make` (macOS) | `sudo apt install make` (Linux)
 
 ## 🚀 Quick Start
 
@@ -76,22 +49,14 @@ uv sync
 uv run jupyter lab
 ```
 
-### Option 3: VS Code (Best Development Experience)
-**Prerequisites:** Python 3.11+ and VS Code
+### Option 3: VS Code/Cusor (Best Development Experience)
 
 ```bash
 # Clone the repository
 git clone https://github.com/lisekarimi/lexo.git
 cd lexo
-
-# Open the project folder in VS Code manually
-```
-
-In VS Code terminal:
-```bash
 # Setup environment
 mv .env.example .env  # Add your API keys here
-
 # Install dependencies
 pip install uv
 uv sync
@@ -160,12 +125,12 @@ Each notebook includes:
 ## 🔗 Related Projects
 
 ### 📸 Snapr
-- **Demo**: [huggingface.co/spaces/lisekarimi/snapr](https://huggingface.co/spaces/lisekarimi/snapr)
-- **Code**: [github.com/lisekarimi/snapr](https://github.com/lisekarimi/snapr)
+- [**Demo**](https://snapr.lisekarimi.com)
+- [**Code**](https://github.com/lisekarimi/snapr)
 
 ### 📊 DataGen
-- **Demo**: [huggingface.co/spaces/lisekarimi/datagen](https://huggingface.co/spaces/lisekarimi/datagen)
-- **Code**: [github.com/lisekarimi/datagen](https://github.com/lisekarimi/datagen)
+- [**Demo**](https://datagen.lisekarimi.com)
+- [**Code**](https://github.com/lisekarimi/datagen)
 
 
 
