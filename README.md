@@ -1,38 +1,22 @@
 # 🧠 Lexo - LLM Toolkit for RAG, Fine-tuning, and AI Agents
 
-**Lexo** is a comprehensive collection of Jupyter notebooks designed for learning and applying Large Language Models (LLMs) in real-world scenarios. Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.
+**Lexo** is a comprehensive collection of Jupyter notebooks designed for learning and applying Large Language Models (LLMs) in real-world scenarios. Master RAG systems, fine-tuning (QLora), AI agents, multimodal processing, and ML benchmarks through hands-on projects.
 
 🌐 **Visit our website**: [https://lexo.lisekarimi.com](https://lexo.lisekarimi.com)
+
+This notebook is inspired by inspired by Ed Donner's LLM engineering certification.
+- Udemy Course: https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/
+- GitHub Repository: https://github.com/ed-donner/llm_engineering
 
 ## 🛠️ Prerequisites & Installation
 
 - Python 3.11.x (not 3.12+)
 - [uv package manager](https://docs.astral.sh/uv/getting-started/installation/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- WSL (Windows Subsystem for Linux)
 - Make: `winget install GnuWin32.Make` (Windows) | `brew install make` (macOS) | `sudo apt install make` (Linux)
+- Any IDE of your choice (e.g., Visual Studio, Cursor, PyCharm).
 
 ## 🚀 Quick Start
 
-### Option 1: Docker Setup (Recommended)
-```bash
-# Clone the repository
-git clone https://github.com/lisekarimi/lexo.git
-cd lexo
-
-# Setup environment
-mv .env.example .env  # Add your API keys here
-
-# Build and run with Docker
-make build
-make run
-
-# Access Jupyter at: http://localhost:8888
-```
-
-### Option 2: Local Setup (No Docker)
-**Prerequisites:** Python 3.11+
-
 ```bash
 # Clone the repository
 git clone https://github.com/lisekarimi/lexo.git
@@ -42,36 +26,13 @@ cd lexo
 mv .env.example .env  # Add your API keys here
 
 # Install dependencies
-pip install uv
-uv sync
-
-# Run Jupyter
-uv run jupyter lab
-```
-
-### Option 3: VS Code/Cusor (Best Development Experience)
-
-```bash
-# Clone the repository
-git clone https://github.com/lisekarimi/lexo.git
-cd lexo
-# Setup environment
-mv .env.example .env  # Add your API keys here
-# Install dependencies
-pip install uv
 uv sync
 ```
-
-**Select Python Interpreter:**
-1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
-2. Type "Python: Select Interpreter"
-3. Choose the `.venv` interpreter from the list
 
 **Select Jupyter Kernel:**
 1. Open any `.ipynb` file
-2. Click "Select Kernel" in the top-right corner
+2. Click "Select Kernel" in the top-right corner of your IDE
 3. Choose "Python Environments" → Select the `.venv` interpreter
-4. VS Code will automatically handle Jupyter integration with IntelliSense and debugging!
 
 ## 🔧 Projects & Notebooks
 
@@ -131,7 +92,6 @@ Each notebook includes:
 ### 📊 DataGen
 - [**Demo**](https://datagen.lisekarimi.com)
 - [**Code**](https://github.com/lisekarimi/datagen)
-
 
 
 ## 🎯 Getting Started
