@@ -3,7 +3,6 @@
 # =====================================
 # Read from pyproject.toml using grep (works on all platforms)
 PROJECT_NAME = $(shell python -c "import re; print(re.search('name = \"(.*)\"', open('pyproject.toml').read()).group(1))")
-CONTAINER_NAME = lexo-container
 
 DOCKER_USERNAME=lkar
 DOCKER_IMAGE = $(DOCKER_USERNAME)/$(PROJECT_NAME)
