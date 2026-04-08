@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexo - LLM Toolkit for RAG, Fine-tuning, and AI Agents</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Comprehensive collection of Jupyter notebooks for learning Large Language Models (LLMs). Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.">
+    <meta name="keywords" content="LLM, Large Language Models, RAG, Retrieval-Augmented Generation, fine-tuning, AI agents, Jupyter notebooks, machine learning, artificial intelligence, GPT, Claude, LLaMA, QLoRA, vector databases, embeddings">
+    <meta name="author" content="Lise Karimi">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Lexo - LLM Toolkit for RAG, Fine-tuning, and AI Agents">
+    <meta property="og:description" content="Comprehensive collection of Jupyter notebooks for learning Large Language Models (LLMs). Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lexo.lisekarimi.com">
+    <meta property="og:image" content="https://lexo.lisekarimi.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Lexo - LLM Toolkit for RAG, Fine-tuning, and AI Agents">
+    <meta property="og:site_name" content="Lexo">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lexo - LLM Toolkit for RAG, Fine-tuning, and AI Agents">
+    <meta name="twitter:description" content="Comprehensive collection of Jupyter notebooks for learning Large Language Models (LLMs). Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.">
+    <meta name="twitter:image" content="https://lexo.lisekarimi.com/og-image.png">
+    <meta name="twitter:image:alt" content="Lexo - LLM Toolkit for RAG, Fine-tuning, and AI Agents">
+    <meta name="twitter:creator" content="@lisekarimi">
+    <meta name="twitter:site" content="@lisekarimi">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://lexo.lisekarimi.com">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Lexo - LLM Toolkit",
+        "description": "Comprehensive collection of Jupyter notebooks for learning Large Language Models (LLMs). Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.",
+        "url": "https://lexo.lisekarimi.com",
+        "author": {
+            "@type": "Person",
+            "name": "Lise Karimi",
+            "url": "https://lisekarimi.com"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Lise Karimi"
+        },
+        "keywords": ["LLM", "Large Language Models", "RAG", "fine-tuning", "AI agents", "Jupyter notebooks", "machine learning", "artificial intelligence"],
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "license": "https://github.com/lisekarimi/lexo",
+        "mainEntity": {
+            "@type": "EducationalResource",
+            "name": "Lexo LLM Toolkit",
+            "description": "A comprehensive toolkit for learning and applying Large Language Models through hands-on Jupyter notebooks covering RAG, fine-tuning, AI agents, and ML benchmarks.",
+            "educationalLevel": "Intermediate to Advanced",
+            "learningResourceType": "Collection of Jupyter Notebooks",
+            "teaches": [
+                "Retrieval-Augmented Generation (RAG)",
+                "LLM Fine-tuning",
+                "AI Agent Development",
+                "Multimodal Processing",
+                "ML Benchmarking"
+            ]
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧠 Lexo</h1>
+            <p>LLM Toolkit for RAG, Fine-tuning, and AI Agents</p>
+            <div class="badges">
+                <span class="badge">Jupyter Notebooks</span>
+                <span class="badge">CPU/GPU</span>
+                <span class="badge">Production Ready</span>
+                <span class="badge">Open Source</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Project Overview</h2>
+            <p><strong>Lexo</strong> is a comprehensive collection of Jupyter notebooks designed for learning and applying Large Language Models (LLMs) in real-world scenarios. Master RAG systems, fine-tuning, AI agents, multimodal processing, and ML benchmarks through hands-on projects.</p>
+
+            <div class="notebook-features">
+                <h3>📚 Each notebook includes:</h3>
+                <ul>
+                    <li>Clear problem statement and real-world context</li>
+                    <li>Step-by-step implementation with explanations</li>
+                    <li>Required API keys and setup instructions</li>
+                    <li>Customizable parameters for experimentation</li>
+                    <li>Performance evaluation and insights</li>
+                </ul>
+                <div class="header-actions">
+                    <a href="https://github.com/lisekarimi/lexo" target="_blank" class="header-github-btn">
+                        <span class="github-icon">📚</span>
+                        <span class="github-text">View All Notebooks</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Key Features</h2>
+            <div class="features-grid">
+                <div>
+                    <h3>🧠 Core Skills Covered</h3>
+                    <ul>
+                        <li>✨ Retrieval-Augmented Generation (RAG)</li>
+                        <li>✨ Prompt engineering and optimization</li>
+                        <li>✨ AI agents and tool integration</li>
+                        <li>✨ Fine-tuning and QLoRA techniques</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🤖 Models & Technologies</h3>
+                    <ul>
+                        <li>✨ Frontier LLMs (GPT, Claude, DeepSeek)</li>
+                        <li>✨ Open-source models (LLaMA, Mistral)</li>
+                        <li>✨ Speech-to-Text processing</li>
+                        <li>✨ Vector databases and embeddings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="certification-section">
+                <div class="certification-header">
+                    <div class="certification-icon">🎓</div>
+                    <h3>Certification Project</h3>
+                </div>
+                <p class="certification-description">
+                    This comprehensive toolkit is the result of my certification from
+                    <a href="https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/?campaigntype=Search&portfolio=ROW-English&language=EN&product=Subs&test=&audience=DSA&topic=Data_Science&priority=Alpha&matchtype=&gad_campaignid=22925713583"
+                       target="_blank" class="course-link">
+                        Ed Donner's LLM Engineering Master Course
+                    </a>
+                </p>
+                <div class="certification-actions">
+                    <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-15f1ec9e-5aa8-4a30-80b2-45f9013ae33d.pdf"
+                       target="_blank" class="certification-btn">
+                        <span class="btn-icon">📜</span>
+                        <span class="btn-text">View Certification</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔧 Core AI Applications</h2>
+            <div class="notebooks-grid">
+                <div class="notebook-card">
+                    <h3>🌐 WebPage Summarizer</h3>
+                    <div class="skill-level beginner">Beginner</div>
+                    <div class="description">
+                        Summarize any URL using OpenAI + LLaMA with Selenium for handling both static and JavaScript-rendered websites.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Handles JavaScript websites</li>
+                            <li>Markdown-formatted summaries</li>
+                            <li>Real-time processing</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">LLms</span>
+                        <span class="tech-tag">Ollama</span>
+                    </div>
+                </div>
+
+                <div class="notebook-card">
+                    <h3>🧾 Brochure Generator</h3>
+                    <div class="skill-level intermediate">Intermediate</div>
+                    <div class="description">
+                        Transform websites into AI-crafted brochures for clients, investors, and recruits using intelligent content extraction.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Smart content filtering</li>
+                            <li>Real-time streaming output</li>
+                            <li>Multi-model support</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Ollama</span>
+                        <span class="tech-tag">IPython</span>
+                    </div>
+                </div>
+
+                <div class="notebook-card">
+                    <h3>💡 Tech Assistant</h3>
+                    <div class="skill-level beginner">Beginner</div>
+                    <div class="description">
+                        AI-driven tool that provides concise, structured explanations for technical questions and code snippets.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Interactive Q&A</li>
+                            <li>Real-time streaming</li>
+                            <li>Code explanation</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Ollama</span>
+                        <span class="tech-tag">IPython</span>
+                    </div>
+                </div>
+
+                <div class="notebook-card">
+                    <h3>🤖 TriBot Debate</h3>
+                    <div class="skill-level intermediate">Intermediate</div>
+                    <div class="description">
+                        Three-bot chat system with GPT (polite & humorous), Claude (argumentative & snarky), and DeepSeek (logical & analytical).
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Distinct personalities</li>
+                            <li>Multi-model integration</li>
+                            <li>Customizable prompts</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">OpenAI</span>
+                        <span class="tech-tag">Anthropic</span>
+                        <span class="tech-tag">DeepSeek</span>
+                        <span class="tech-tag">IPython</span>
+                    </div>
+                </div>
+
+                <div class="notebook-card">
+                    <h3>🌤️ WeatherMate AI Agent</h3>
+                    <div class="skill-level intermediate">Intermediate</div>
+                    <div class="description">
+                        Conversational AI agent that analyzes real-time weather conditions and suggests activities and events based on location.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Real-time weather data</li>
+                            <li>Event recommendations</li>
+                            <li>External API integration</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Tools</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">Gradio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📝 Advanced Workflows</h2>
+            <div class="notebooks-grid">
+                <div class="notebook-card">
+                    <h3>📝 Meeting Minutes Assistant</h3>
+                    <div class="skill-level intermediate">Intermediate</div>
+                    <div class="description">
+                        Generate structured meeting minutes from audio recordings using Speech-to-Text (Whisper) and Large Language Models.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Audio transcription</li>
+                            <li>Structured output</li>
+                            <li>Real-time streaming</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Whisper</span>
+                        <span class="tech-tag">LLaMA 3.1</span>
+                        <span class="tech-tag">Gradio</span>
+                        <span class="tech-tag">HuggingFace</span>
+                        <span class="tech-tag">GPU</span>
+
+                    </div>
+                </div>
+
+                <div class="notebook-card">
+                    <h3>🧪 Synthetic Data Generator</h3>
+                    <div class="skill-level intermediate">Intermediate</div>
+                    <div class="description">
+                        Generate realistic synthetic datasets for tabular, text, and time-series data using multiple LLM providers.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Multiple data types</li>
+                            <li>JSON and CSV output</li>
+                            <li>Multi-model support</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">OpenAI</span>
+                        <span class="tech-tag">Anthropic</span>
+                        <span class="tech-tag">Google Cloud Platform</span>
+                        <span class="tech-tag">Gradio</span>
+                    </div>
+                </div>
+
+                <div class="notebook-card">
+                    <h3>🧠 RAG QA Assistant</h3>
+                    <div class="skill-level intermediate">Intermediate</div>
+                    <div class="description">
+                        Internal expert knowledge assistant using Retrieval-Augmented Generation (RAG) for fast, accurate answers to internal queries.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Document loading (PDF, text, markdown)</li>
+                            <li>ChromaDB vector store</li>
+                            <li>Conversation history</li>
+                            <li>Source attribution</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">ChromaDB</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Gradio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pipeline-section">
+            <h2>🔬 ML & Fine-tuning Pipeline</h2>
+            <p>Complete ML pipeline from data to deployment with comprehensive benchmarking and evaluation. <strong>GPU required</strong> for optimal performance.</p>
+
+            <div class="pipeline-steps">
+                <div class="pipeline-step">
+                    <h4>📊 Data Curation</h4>
+                    <p>Aggregate, clean, analyze, and balance datasets for price prediction tasks.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>⚔️ Traditional ML vs LLMs</h4>
+                    <p>Compare traditional ML models against frontier LLMs for performance benchmarking.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>🧠 E5 Embeddings & RAG</h4>
+                    <p>Test contextual embeddings and retrieval-augmented generation approaches.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>🔧 Fine-tuning GPT-4o Mini</h4>
+                    <p>Fine-tune frontier models and compare before/after performance.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>🦙 LLaMA 3.1 Evaluation</h4>
+                    <p>Evaluate quantized LLaMA 3.1 8B model performance.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>⚙️ QLoRA Fine-tuning</h4>
+                    <p>Fine-tune LLaMA 3.1 using QLoRA with hyperparameter optimization.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>🧪 Model Evaluation</h4>
+                    <p>Comprehensive evaluation and performance comparison across all models.</p>
+                </div>
+                <div class="pipeline-step">
+                    <h4>🏆 Leaderboard</h4>
+                    <p>Final rankings and insights across ML, embeddings, RAG, and fine-tuned models.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏆 Capstone Project</h2>
+            <div class="notebooks-grid">
+                <div class="notebook-card capstone-card">
+                    <h3>🏷️ Snapr - AI Deal Finder</h3>
+                    <div class="skill-level advanced">Advanced</div>
+                    <div class="description">
+                        <strong>Capstone Project:</strong> A comprehensive AI system that scans online product listings, predicts their value using an ensemble of models, and alerts users to great deals. This project integrates the ensemble model (fine-tuned LLaMA, XGBoost, and GPT-4o Mini + RAG) with cloud deployment (Modal/GCP) for production use.
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Multi-model ensemble integration</li>
+                            <li>Real-time price prediction</li>
+                            <li>Cloud deployment with Modal</li>
+                            <li>Scalable production infrastructure</li>
+                            <li>Deal alert system</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">LLaMA 3.1 Fine tuned with QLoRA</span>
+                        <span class="tech-tag">XGBoost</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">ChromaDB/AWS S3</span>
+                        <span class="tech-tag">Modal</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">HuggingFace</span>
+                        <span class="tech-tag">Modal</span>
+                        <span class="tech-tag">GPU</span>
+                        <span class="tech-tag">Google Cloud Platform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>🔗 Related Projects</h3>
+            <p>
+                <a href="https://snapr.lisekarimi.com" target="_blank">📸 Snapr Demo</a> |
+                <a href="https://github.com/lisekarimi/snapr" target="_blank">📸 Snapr Code</a> |
+                <a href="https://datagen.lisekarimi.com" target="_blank">📊 DataGen Demo</a> |
+                <a href="https://github.com/lisekarimi/datagen" target="_blank">📊 DataGen Code</a>
+            </p>
+            <p>
+                <strong>Ready to dive into the world of LLMs?</strong> Choose your setup method and start exploring! 🚀
+            </p>
+            <div class="github-star-section">
+                <a href="https://github.com/lisekarimi/lexo" target="_blank" class="github-star-btn">
+                    <span class="star-icon">⭐</span>
+                    <span class="star-text">Star on GitHub</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section explore-section">
+            <h2>🌟 Explore More Projects</h2>
+            <p>Inspired by these AI solutions? Explore more machine learning and artificial intelligence projects showcasing advanced techniques and real-world applications.</p>
+            <div class="explore-actions">
+                <a href="https://github.com/lisekarimi" target="_blank" class="explore-btn">
+                    <span class="explore-icon">🚀</span>
+                    <span class="explore-text">View Full Portfolio</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Professional Footer -->
+        <div class="professional-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://lisekarimi.com" target="_blank" class="social-link portfolio">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                            <span class="social-text">Portfolio</span>
+                        </a>
+                        <a href="https://linkedin.com/in/lisekarimi" target="_blank" class="social-link linkedin">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            <span class="social-text">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/lisekarimi" target="_blank" class="social-link github">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            <span class="social-text">GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <p>LLM Engineering</p>
+                    <p>Building intelligent systems for real-world applications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
